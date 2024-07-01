@@ -77,3 +77,9 @@ table tbody tr:nth-child(even) {
 table tbody .img {
   width: 40%;
 }
+@media (max-width:600px)
+{
+  table {
+    width: 100%;
+  }
+}
