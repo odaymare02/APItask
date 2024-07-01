@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+img {
+  width: 100%;
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #000000;
+  padding: 15px 20px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 9px 3px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s linear;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+a:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transition: all 0.5s linear;
+}
+.choose .second-page {
+  height: fit-content;
+}
+table {
+  border-collapse: collapse;
+  width: 70%;
+}
+table caption {
+  background-color: black;
+  padding: 20px;
+  color: #fff;
+  border-radius: 25px 25px 0 0;
+}
+table thead th {
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+table thead th:nth-child(odd) {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+table tbody tr {
+  text-align: center;
+}
+table tbody tr:nth-child(even) {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  a {
+    background-color: #fff;
+    color: #000000;
+    text-decoration: none;
+    box-shadow: 1px 1px 9px 3px rgba(255, 255, 255, 0.75);
+    transition: all 0.5s linear;
+  }
+  a:hover {
+    background-color: #0000;
+    color: #ffff;
+    transition: all 0.5s linear;
+  }
+}
+table tbody .img {
+  width: 40%;
+}
