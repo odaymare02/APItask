@@ -40,3 +40,7 @@ form div .choose {
 form div .choose:hover {
   scale: 1.1;
 }
+img
+{
+  width: 100%;
+}
