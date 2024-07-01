@@ -1,9 +1,6 @@
 body {
   background-color: rgb(214, 211, 211);
 }
-table {
-  width: 70%;
-}
 form {
   display: flex;
   flex-wrap: wrap;
