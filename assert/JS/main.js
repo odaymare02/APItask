@@ -11,7 +11,7 @@ async function getRexipes() {
     <tr>
     <td>${TwoWords}</td>
     <td class="img"><img src="${ele.image_url}"/></td>
-    <td><a href="${ele.sourceUrl}" target="_blank">View Recipe</a></td>
+    <td><a href="${ele.source_url}" target="_blank">View Recipe</a></td>
     </tr>
     `;
     })
