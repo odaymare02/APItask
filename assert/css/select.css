@@ -22,6 +22,9 @@ form div select {
   color: #fff;
   font-weight: 600;
   text-shadow: 0px 0px 7px rgba(255, 255, 255, 1);
+  padding: 10px 15px;
+  flex-basis: 200px;
+  flex-grow: 1;
 }
 form div select option {
   font-weight: 600;
@@ -36,6 +39,7 @@ form div .choose {
   color: #000;
   cursor: pointer;
   transition: all 0.5s linear;
+  flex-grow: 1;
 }
 form div .choose:hover {
   scale: 1.1;
